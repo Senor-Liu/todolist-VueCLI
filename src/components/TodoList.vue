@@ -45,7 +45,6 @@ export default {
   created () {
     // 初始化数据
     let items = localStorage.items
-    console.log(items)
     if (items) {
       this.items = JSON.parse(items)
     }
