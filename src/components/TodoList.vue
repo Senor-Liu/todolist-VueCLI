@@ -3,7 +3,7 @@
     <h1 v-html="title"></h1>
     <div id="add">
       <input type="text" v-model="newItem" @keydown.enter="addNewItem" id="newItem">
-      <button @click="addNewItem" id="addNewItem">添加</button>
+      <button @click="addNewItem" id="addNewItem">添加 </button>
     </div>
     <h3>进行中({{undoneLength}})</h3>
       <ul>
